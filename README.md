@@ -1,6 +1,6 @@
 # TypeScript DI
 
-Simple TypeScript library showcasing dependency injection functionalities.
+Simple TypeScript library showcasing dependency injection functionalities. Heavily inspired by [this project](https://github.com/nehalist/di-ts).
 
 Idea is to archive something like this
 
