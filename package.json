@@ -1,11 +1,15 @@
 {
     "name": "typescript-di",
-    "description": "Simple TypeScript project showcasing dependency injection functionalities",
+    "description": "Simple TypeScript library showcasing dependency injection functionalities",
     "private": true,
     "license": "MIT",
     "author": {
         "name": "Peter Aleksander Bizjak",
         "email": "peteralex.developer@gmail.com"
+    },
+    "scripts": {
+        "lint": "eslint \"src/**/*.ts\" \"example/**/*.ts\" --fix",
+        "start": "ts-node example/index.ts"
     },
     "dependencies": {
         "reflect-metadata": "^0.1.13"
@@ -15,6 +19,7 @@
         "@typescript-eslint/eslint-plugin": "^4.21.0",
         "@typescript-eslint/parser": "^4.21.0",
         "eslint": "^7.23.0",
+        "ts-node": "^9.1.1",
         "typescript": "^4.2.3"
     }
 }
